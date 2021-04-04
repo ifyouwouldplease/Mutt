@@ -30,7 +30,7 @@ If you have a macro named "chain cc" that looks like:
 **/uma** works exactly the same, updating **/assist** in your macros.
 
 
-**/mutt **works similarly but is only intended to adjust @ targets to the positions of party or raid members.
+**/mutt** works similarly but is only intended to adjust @ targets to the positions of party or raid members.
 
 Assuming you have a macro named "hlight" that looks like:
 ```
