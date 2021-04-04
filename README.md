@@ -75,7 +75,7 @@ Adding numbers after the name of the macro tells Mutt to change those instances 
 
 ...would change the next-to-last @ target in your macro.
 
-Placing** all **as an modifier in your Mutt command tells Mutt to change all instances of @ target in your macro to what Mutt received as the current target (more on targeting below).
+Placing **all** as an modifier in your Mutt command tells Mutt to change all instances of @ target in your macro to what Mutt received as the current target (more on targeting below).
 
 By default Mutt will replace everything after the selected @ target but there are cases, like macros where you want the target's target, where you wouldn't want that. Mutt provides the **keep*something*** modifier to let you preserve a target chain after your initial target (I say preserve here, but Mutt will add the provided chain if it's not already present). Since having to specify a modifier like **keeptargetpettarget** would eat valuable macro space, Mutt understands **k** plus combinations of **p** and **t** to be a short version of this modifier, so **ktpt** could be used in place of the modifier above.
 
