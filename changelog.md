@@ -1,6 +1,9 @@
-## 0.87 - 03/28/2021
-###  *  Initial addition of Mutt addon files.
+## 0.88 - 05/09/2021
+###  *  Bump interface for 1.13.7 TBC Classic pre-pre-patch, refresh libs
 
+
+##### 0.87 :
+  *  Initial addition of Mutt addon files.
 
 ##### 0.87 :
   *  No-op bump for auto-build test.
@@ -32,6 +35,7 @@
 
 ##### 0.81 :
   *  Switching to markdown changelog file.
+
 
 
 

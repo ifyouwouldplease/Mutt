@@ -1,7 +1,7 @@
-## Interface: 11306
+## Interface: 11307
 ## Title: Mutt
 ## Author: Tuill of Pagle
-## Version: 0.87
+## Version: 0.88
 ## Notes: Mutt (Macro Update Target Tool) is a set of slash-commands that can patch the predefined @target , /target and /assist instances in a macro.
 
 embeds.xml
