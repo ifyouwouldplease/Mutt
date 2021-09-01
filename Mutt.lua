@@ -50,6 +50,7 @@
 -- 0.86 -- Bump and tag to confirm Overwolf fix for auto build
 -- 0.87 -- No-op bump and tag to confirm Overwolf fix for auto build
 -- 0.88 -- Bump interface for 1.13.7 TBC Classic pre-pre-patch, refresh libs
+-- 0.89 -- Bump interface for 2.5.2, refresh libs
 
 -- Many sources of inspiration (== blatant copy/pastes)
 -- All comments by Tuill
