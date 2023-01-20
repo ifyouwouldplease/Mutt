@@ -53,6 +53,7 @@
 -- 0.89 -- Bump interface for 2.5.2, refresh libs
 -- 0.90 -- Bump interface for 2.5.3, refresh libs
 -- 0.91 -- Bump interface for 2.5.4, refresh libs
+-- 0.92 -- Bump interface for 3.4.1, refresh libs
 
 -- Many sources of inspiration (== blatant copy/pastes)
 -- All comments by Tuill
