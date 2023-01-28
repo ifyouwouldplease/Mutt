@@ -1,11 +1,14 @@
-## 0.91 - 01/19/2023
-###  *  Bump interface for 3.4.1, refresh libs
+## 0.92 - 01/28/2023
+###  *  No distribution build, update copyright year in license file, changes to commit script version grabber.
 
+
+##### 0.92 :
+  *  Bump interface for 3.4.1, refresh libs
 
 ##### 0.91 :
   *  Bump interface for 2.5.4, refresh libs
 
-##### 0.89 :
+##### 0.90 :
   *  Bump interface for 2.5.3, refresh libs
 
 ##### 0.89 :
@@ -20,7 +23,7 @@
 ##### 0.87 :
   *  Initial addition of Mutt addon files.
 
-##### 0.87 :
+##### 0.86x :
   *  No-op bump for auto-build test.
 
 ##### 0.86 :
@@ -50,6 +53,7 @@
 
 ##### 0.81 :
   *  Switching to markdown changelog file.
+
 
 
 
