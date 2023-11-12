@@ -54,6 +54,7 @@
 -- 0.90 -- Bump interface for 2.5.3, refresh libs
 -- 0.91 -- Bump interface for 2.5.4, refresh libs
 -- 0.92 -- Bump interface for 3.4.1, refresh libs
+-- 0.93 -- Bump interface for 1.14.4 classic, 3.4.3 wrath classic, refresh libs
 
 -- Many sources of inspiration (== blatant copy/pastes)
 -- All comments by Tuill

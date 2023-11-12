@@ -1,6 +1,9 @@
-## 0.92 - 01/28/2023
-###  *  No distribution build, update copyright year in license file, changes to commit script version grabber.
+## 0.93 - 11/12/2023
+###  *  Bump interface for 1.14.4 classic, 3.4.3 wrath classic, refresh libs
 
+
+##### 0.92 :
+  *  No distribution build, update copyright year in license file, changes to commit script version grabber.
 
 ##### 0.92 :
   *  Bump interface for 3.4.1, refresh libs
@@ -53,6 +56,7 @@
 
 ##### 0.81 :
   *  Switching to markdown changelog file.
+
 
 
 
