@@ -55,6 +55,7 @@
 -- 0.91 -- Bump interface for 2.5.4, refresh libs
 -- 0.92 -- Bump interface for 3.4.1, refresh libs
 -- 0.93 -- Bump interface for 1.14.4 classic, 3.4.3 wrath classic, refresh libs
+-- 0.94 -- Bump interface for 1.15.0 classic, 3.4.3 wrath classic, refresh libs, re-add .pkgmeta to troubleshoot Curse changelog
 
 -- Many sources of inspiration (== blatant copy/pastes)
 -- All comments by Tuill

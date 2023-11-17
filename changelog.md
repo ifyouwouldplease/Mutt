@@ -1,6 +1,9 @@
-## 0.93 - 11/12/2023
-###  *  Bump interface for 1.14.4 classic, 3.4.3 wrath classic, refresh libs
+## 0.94 - 11/16/2023
+###  *  Bump interface for 1.15.0 classic, 3.4.3 wrath classic, refresh libs, re-add .pkgmeta to troubleshoot Curse changelog
 
+
+##### 0.93 :
+  *  Bump interface for 1.14.4 classic, 3.4.3 wrath classic, refresh libs
 
 ##### 0.92 :
   *  No distribution build, update copyright year in license file, changes to commit script version grabber.
@@ -56,6 +59,7 @@
 
 ##### 0.81 :
   *  Switching to markdown changelog file.
+
 
 
 
