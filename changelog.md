@@ -1,6 +1,9 @@
-## 0.95 - 05/01/2024
-###  *  Initial commit for Cata Classic, bump libs.
+## 0.95 - 09/21/2024
+###  *  Bump interface for Classic-Classic.
 
+
+##### 0.95 :
+  *  Initial commit for Cata Classic, bump libs.
 
 ##### 0.94 :
   *  Bump interface for 1.15.0 classic, 3.4.3 wrath classic, refresh libs, re-add .pkgmeta to troubleshoot Curse changelog
@@ -62,6 +65,7 @@
 
 ##### 0.81 :
   *  Switching to markdown changelog file.
+
 
 
 
