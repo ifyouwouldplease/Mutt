@@ -1,4 +1,4 @@
-## Interface: 11503
+## Interface: 11504
 ## Title: Mutt
 ## Author: Tuill of Pagle
 ## Version: 0.95
