@@ -1,6 +1,9 @@
-## 0.95 - 10/05/2024
-###  *  Bump interface again for Classic 1.15.4, no change to addon.
+## 0.96 - 12/08/2024
+###  *  Bump interface, refresh libs for Classic-Classic.
 
+
+##### 0.95 :
+  *  Bump interface again for Classic 1.15.4, no change to addon.
 
 ##### 0.95 :
   *  Bump interface for Classic-Classic.
@@ -68,6 +71,7 @@
 
 ##### 0.81 :
   *  Switching to markdown changelog file.
+
 
 
 
