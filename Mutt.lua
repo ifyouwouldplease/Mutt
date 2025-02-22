@@ -58,6 +58,7 @@
 -- 0.94 -- Bump interface for 1.15.0 classic, 3.4.3 wrath classic, refresh libs, re-add .pkgmeta to troubleshoot Curse changelog
 -- 0.95 -- Initial release for Cata Classic, refresh libs. UPDATE - Bump interface for Classic-Classic. UPDATE - Bump again 1.15.4.
 -- 0.96 -- Bump interface, refresh libs for Classic-Classic.
+-- 0.97 -- Bump interface, refresh libs for Classic-Anniversary.
 
 -- Many sources of inspiration (== blatant copy/pastes)
 -- All comments by Tuill
