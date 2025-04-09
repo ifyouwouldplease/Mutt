@@ -59,6 +59,7 @@
 -- 0.95 -- Initial release for Cata Classic, refresh libs. UPDATE - Bump interface for Classic-Classic. UPDATE - Bump again 1.15.4.
 -- 0.96 -- Bump interface, refresh libs for Classic-Classic.
 -- 0.97 -- Bump interface, refresh libs for Classic-Anniversary.
+-- 0.98 -- Bump interface, refresh libs for Classic-Anniversary.
 
 -- Many sources of inspiration (== blatant copy/pastes)
 -- All comments by Tuill
