@@ -60,6 +60,7 @@
 -- 0.96 -- Bump interface, refresh libs for Classic-Classic.
 -- 0.97 -- Bump interface, refresh libs for Classic-Anniversary.
 -- 0.98 -- Bump interface, refresh libs for Classic-Anniversary.
+-- 0.99 -- Changes in API to read addon metadata, bump interfaces, refresh libs
 
 -- Many sources of inspiration (== blatant copy/pastes)
 -- All comments by Tuill
@@ -79,6 +80,14 @@ local table_insert = table.insert
 local asMutt = 1
 local asTarget = 2
 local asAssist = 3
+
+-- Accommodate changes in API
+local GetAddOnMetadata = GetAddOnMetadata or (C_AddOns and C_AddOns.GetAddOnMetadata)
+local GetNumAddOns = GetNumAddOns or (C_AddOns and C_AddOns.GetNumAddOns)
+local IsAddOnLoaded = IsAddOnLoaded or (C_AddOns and C_AddOns.IsAddOnLoaded)
+local IsAddOnLoadOnDemand = IsAddOnLoadOnDemand or (C_AddOns and C_AddOns.IsAddOnLoadOnDemand)
+local GetAddOnInfo = GetAddOnInfo or (C_AddOns and C_AddOns.GetAddOnInfo)
+local GetAddOnDependencies = GetAddOnDependencies or (C_AddOns and C_AddOns.GetAddOnDependencies)
 
 -- Fetch version & notes from TOC file
 local ourVersion = GetAddOnMetadata("Mutt", "Version")
@@ -443,8 +452,9 @@ function ourAddon:HowTo()
     else
       -- Cheeseball fix for issue with 1st call to display Interface > Mutt
       -- frame only showing ESC menu, just call twice-in-a-row
-      InterfaceOptionsFrame_OpenToCategory(self.optionsFrames.general)
-      InterfaceOptionsFrame_OpenToCategory(self.optionsFrames.general)
+	  Settings.OpenToCategory("Mutt")
+      --InterfaceOptionsFrame_OpenToCategory(self.optionsFrames.general)
+      --InterfaceOptionsFrame_OpenToCategory(self.optionsFrames.general)
     end
 end
 
