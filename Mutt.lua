@@ -61,6 +61,7 @@
 -- 0.97 -- Bump interface, refresh libs for Classic-Anniversary.
 -- 0.98 -- Bump interface, refresh libs for Classic-Anniversary.
 -- 0.99 -- Changes in API to read addon metadata, bump interfaces, refresh libs
+-- 0.991 -- Bump interface, refresh libs for TBC-Anniversary.
 
 -- Many sources of inspiration (== blatant copy/pastes)
 -- All comments by Tuill

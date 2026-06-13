@@ -1,6 +1,9 @@
-## 0.99 - 10/26/2025
-###  *  Changes in API to read addon metadata, bump interfaces, refresh libs
+## 0.991 - 06/13/2026
+###  *  Bump interface, refresh libs for TBC-Anniversary.
 
+
+##### 0.99 :
+  *  Changes in API to read addon metadata, bump interfaces, refresh libs
 
 ##### 0.98 :
   *  Bump interface, refresh libs for Classic-Anniversary.
@@ -80,6 +83,7 @@
 
 ##### 0.81 :
   *  Switching to markdown changelog file.
+
 
 
 
