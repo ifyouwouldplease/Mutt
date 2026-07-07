@@ -1,6 +1,12 @@
-## 0.991 - 06/13/2026
+## 0.992 - 07/07/2026
 ###  *  Bump interface, refresh libs for TBC-Anniversary.
 
+
+##### 0.991 :
+  *  Saw Powershell dialog as empty or canceled
+
+##### 0.991 :
+  *  Bump interface, refresh libs for TBC-Anniversary.
 
 ##### 0.99 :
   *  Changes in API to read addon metadata, bump interfaces, refresh libs
@@ -83,6 +89,8 @@
 
 ##### 0.81 :
   *  Switching to markdown changelog file.
+
+
 
 
 
