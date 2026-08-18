@@ -1,5 +1,5 @@
 -- Mutt - Macro Update Target Tool
--- Tuill of Pagle
+-- Tuill of Duskwood/Greymane/Pagle/Dreamscythe
 -- Revisions:
 -- 0.1 - Initial copy of Telegraph (by Tuill) source
 -- 0.2 - First running test
@@ -63,6 +63,7 @@
 -- 0.99 -- Changes in API to read addon metadata, bump interfaces, refresh libs
 -- 0.991 -- Bump interface, refresh libs for TBC-Anniversary.
 -- 0.992 -- Bump interface, refresh libs for TBC-Anniversary.
+-- 0.993 -- Add IconTexture & Category, bump interface, refresh libs for TBC-Anniversary.
 
 -- Many sources of inspiration (== blatant copy/pastes)
 -- All comments by Tuill

@@ -1,6 +1,9 @@
-## 0.992 - 07/07/2026
-###  *  Bump interface, refresh libs for TBC-Anniversary.
+## 0.993 - 08/18/2026
+###  *  Add IconTexture & Category, bump interface, refresh libs for TBC-Anniversary.
 
+
+##### 0.992 :
+  *  Bump interface, refresh libs for TBC-Anniversary.
 
 ##### 0.991 :
   *  Saw Powershell dialog as empty or canceled
@@ -89,6 +92,7 @@
 
 ##### 0.81 :
   *  Switching to markdown changelog file.
+
 
 
 
