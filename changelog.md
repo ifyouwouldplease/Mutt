@@ -1,6 +1,9 @@
-## 0.993 - 08/18/2026
-###  *  Add IconTexture & Category, bump interface, refresh libs for TBC-Anniversary.
+## 0.994 - 09/07/2026
+###  *  Change to use global name for help static popup, refresh libs
 
+
+##### 0.993 :
+  *  Add IconTexture & Category, bump interface, refresh libs for TBC-Anniversary.
 
 ##### 0.992 :
   *  Bump interface, refresh libs for TBC-Anniversary.
@@ -92,6 +95,7 @@
 
 ##### 0.81 :
   *  Switching to markdown changelog file.
+
 
 
 

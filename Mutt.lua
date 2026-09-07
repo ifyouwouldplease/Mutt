@@ -64,6 +64,7 @@
 -- 0.991 -- Bump interface, refresh libs for TBC-Anniversary.
 -- 0.992 -- Bump interface, refresh libs for TBC-Anniversary.
 -- 0.993 -- Add IconTexture & Category, bump interface, refresh libs for TBC-Anniversary.
+-- 0.994 - Change to use global name for help static popup, refresh libs
 
 -- Many sources of inspiration (== blatant copy/pastes)
 -- All comments by Tuill
@@ -265,11 +266,12 @@ StaticPopupDialogs["MUTT_EXAMPLE"] = {
   text = 'Example - Update macro named "hlight"',
   button1 = "OK",
   OnShow = function (self, data)
-    self.editBox:SetMultiLine(true)
-    self.editBox:SetHeight(90)
-    self.editBox:DisableDrawLayer("BACKGROUND")
-    self.editBox:SetText(ourAddon.muttExampleText)
-    self.editBox:HighlightText()
+    local ourEdit = _G[self:GetName() .. "EditBox"]
+    ourEdit:SetMultiLine(true)
+    ourEdit:SetHeight(90)
+    ourEdit:DisableDrawLayer("BACKGROUND")
+    ourEdit:SetText(ourAddon.muttExampleText)
+    ourEdit:HighlightText()
     self:Show()
   end,
   hasEditBox = true,
@@ -285,11 +287,12 @@ StaticPopupDialogs["MUTT_UMT_EXAMPLE"] = {
   text = 'Example - Update macro named "chain cc"',
   button1 = "OK",
   OnShow = function (self, data)
-    self.editBox:SetMultiLine(true)
-    self.editBox:SetHeight(90)
-    self.editBox:DisableDrawLayer("BACKGROUND")
-    self.editBox:SetText(ourAddon.muttUmtExampleText)
-    self.editBox:HighlightText()
+    local ourEdit = _G[self:GetName() .. "EditBox"]
+    ourEdit:SetMultiLine(true)
+    ourEdit:SetHeight(90)
+    ourEdit:DisableDrawLayer("BACKGROUND")
+    ourEdit:SetText(ourAddon.muttUmtExampleText)
+    ourEdit:HighlightText()
     self:Show()
   end,
   hasEditBox = true,
@@ -305,11 +308,12 @@ StaticPopupDialogs["MUTT_UMA_EXAMPLE"] = {
   text = 'Example - Update macro named "follow lead"',
   button1 = "OK",
   OnShow = function (self, data)
-    self.editBox:SetMultiLine(true)
-    self.editBox:SetHeight(90)
-    self.editBox:DisableDrawLayer("BACKGROUND")
-    self.editBox:SetText(ourAddon.muttUmaExampleText)
-    self.editBox:HighlightText()
+    local ourEdit = _G[self:GetName() .. "EditBox"]
+    ourEdit:SetMultiLine(true)
+    ourEdit:SetHeight(90)
+    ourEdit:DisableDrawLayer("BACKGROUND")
+    ourEdit:SetText(ourAddon.muttUmaExampleText)
+    ourEdit:HighlightText()
     self:Show()
   end,
   hasEditBox = true,
