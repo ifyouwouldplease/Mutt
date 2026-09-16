@@ -65,6 +65,7 @@
 -- 0.992 -- Bump interface, refresh libs for TBC-Anniversary.
 -- 0.993 -- Add IconTexture & Category, bump interface, refresh libs for TBC-Anniversary.
 -- 0.994 - Change to use global name for help static popup, refresh libs
+-- 0.995 - Fold TOCs back into single w/ multiple Interface, update interface for multiple expansions, fix howto open.
 
 -- Many sources of inspiration (== blatant copy/pastes)
 -- All comments by Tuill
@@ -417,7 +418,7 @@ function ourAddon:OnInitialize()
     ourConfig:RegisterOptionsTable("Mutt", ourOptions)
 
     self.optionsFrames = {}
-    self.optionsFrames.general = ourConfigDialog:AddToBlizOptions("Mutt", "Mutt", nil, "general")
+    self.optionsFrames.general, self.optionsFrames.categoryID = ourConfigDialog:AddToBlizOptions("Mutt", "Mutt", nil, "general")
 
     -- Create slash commands
     self:RegisterChatCommand("mutt", "SlashHandler")
@@ -459,7 +460,7 @@ function ourAddon:HowTo()
     else
       -- Cheeseball fix for issue with 1st call to display Interface > Mutt
       -- frame only showing ESC menu, just call twice-in-a-row
-	  Settings.OpenToCategory("Mutt")
+	  Settings.OpenToCategory(self.optionsFrames.categoryID)
       --InterfaceOptionsFrame_OpenToCategory(self.optionsFrames.general)
       --InterfaceOptionsFrame_OpenToCategory(self.optionsFrames.general)
     end

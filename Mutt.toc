@@ -1,7 +1,9 @@
-## Interface: 110205
+## Interface: 120100, 50504, 20506, 11509
 ## Title: Mutt
-## Author: Tuill of Pagle
-## Version: 0.99
+## Author: Tuill of Duskwood/Greymane/Pagle/Dreamscythe
+## Version: 0.995
+## IconTexture: Interface\Icons\inv_misc_spyglass_03.blp
+## Category: Macros
 ## Notes: Mutt (Macro Update Target Tool) is a set of slash-commands that can patch the predefined @target , /target and /assist instances in a macro.
 
 embeds.xml

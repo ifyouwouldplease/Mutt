@@ -1,6 +1,9 @@
-## 0.994 - 09/07/2026
-###  *  Change to use global name for help static popup, refresh libs
+## 0.995 - 09/16/2026
+###  *  Fold TOCs back into single w/ multiple Interface, update interface for multiple expansions, fix howto open.
 
+
+##### 0.994 :
+  *  Change to use global name for help static popup, refresh libs
 
 ##### 0.993 :
   *  Add IconTexture & Category, bump interface, refresh libs for TBC-Anniversary.
@@ -95,6 +98,7 @@
 
 ##### 0.81 :
   *  Switching to markdown changelog file.
+
 
 
 
