@@ -66,6 +66,7 @@
 -- 0.993 -- Add IconTexture & Category, bump interface, refresh libs for TBC-Anniversary.
 -- 0.994 - Change to use global name for help static popup, refresh libs
 -- 0.995 - Fold TOCs back into single w/ multiple Interface, update interface for multiple expansions, fix howto open.
+-- 0.996 - Add Forever interface to TOC, refresh libs.
 
 -- Many sources of inspiration (== blatant copy/pastes)
 -- All comments by Tuill

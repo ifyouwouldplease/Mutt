@@ -1,6 +1,9 @@
-## 0.995 - 09/16/2026
-###  *  Fold TOCs back into single w/ multiple Interface, update interface for multiple expansions, fix howto open.
+## 0.996 - 09/18/2026
+###  *  Add Forever interface to TOC, refresh libs.
 
+
+##### 0.995 :
+  *  Fold TOCs back into single w/ multiple Interface, update interface for multiple expansions, fix howto open.
 
 ##### 0.994 :
   *  Change to use global name for help static popup, refresh libs
@@ -98,6 +101,7 @@
 
 ##### 0.81 :
   *  Switching to markdown changelog file.
+
 
 
 
